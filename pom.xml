@@ -30,7 +30,7 @@
     <dependency>
         <groupId>com.github.cxt</groupId>
   		<artifactId>MyTools</artifactId>
-  		<version>0.0.1</version>
+  		<version>0.0.1-SNAPSHOT</version>
     </dependency>
   </dependencies>
   
