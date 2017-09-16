@@ -3,7 +3,7 @@
 
   <groupId>com.github.cxt</groupId>
   <artifactId>scm</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
+  <version>0.0.6-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>scm</name>
@@ -15,7 +15,8 @@
   
   <scm>
     <connection>scm:git:https://github.com/caixt/scm.git</connection>
-    <developerConnection>scm:git:git@github.com:caixt/scm.git</developerConnection>
+    <!-- <developerConnection>scm:git:git@github.com:caixt/scm.git</developerConnection>-->
+	<developerConnection>scm:git:https://github.com/caixt/scm.git</developerConnection>
     <url>https://github.com/caixt/scm</url>
     <tag>HEAD</tag>
   </scm>
@@ -30,7 +31,7 @@
     <dependency>
         <groupId>com.github.cxt</groupId>
   		<artifactId>MyTools</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
+  		<version>0.0.1</version>
     </dependency>
   </dependencies>
   
