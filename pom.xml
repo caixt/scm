@@ -15,8 +15,7 @@
   
   <scm>
     <connection>scm:git:https://github.com/caixt/scm.git</connection>
-    <!-- <developerConnection>scm:git:git@github.com:caixt/scm.git</developerConnection>-->
-	<developerConnection>scm:git:https://github.com/caixt/scm.git</developerConnection>
+    <developerConnection>scm:git:git@github.com:caixt/scm.git</developerConnection>
     <url>https://github.com/caixt/scm</url>
     <tag>HEAD</tag>
   </scm>
