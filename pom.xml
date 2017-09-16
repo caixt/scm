@@ -15,7 +15,7 @@
   </properties>
   
   <scm>
-    <connection>scm:git:https://github.com/caixt/scm.git</connection>
+    <!-- <connection>scm:git:https://github.com/caixt/scm.git</connection> -->
     <developerConnection>scm:git:git@github.com:caixt/scm.git</developerConnection>
     <url>https://github.com/caixt/scm</url>
   </scm>
@@ -46,6 +46,17 @@
                    <encoding>UTF-8</encoding>
                </configuration>
          </plugin>
+		 <plugins>
+            <!--指定各自产品 tag 生成地址-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <configuration>
+                    <tagBase>https://github.com/caixt/scm/tags</tagBase>
+                    <releaseProfiles>release</releaseProfiles>
+                </configuration>
+            </plugin>
+        </plugins>
   	</plugins>
   </build>
 </project>
