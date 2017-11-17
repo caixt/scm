@@ -4,7 +4,7 @@
   <groupId>com.github.cxt</groupId>
   <artifactId>scm</artifactId>
   <version>0.0.6-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <packaging>pom</packaging>
 
   <name>scm</name>
   <url>http://maven.apache.org</url>
@@ -19,18 +19,18 @@
     <url>https://github.com/caixt/scm</url>
     <tag>HEAD</tag>
   </scm>
-
+  
+  <modules>
+        <module>core</module>
+        <module>main</module>
+  </modules>
+  
   <dependencies>
     <dependency>
         <groupId>junit</groupId>
         <artifactId>junit</artifactId>
         <version>4.11</version>
         <scope>test</scope>
-    </dependency>
-    <dependency>
-        <groupId>com.github.cxt</groupId>
-  		<artifactId>MyTools</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
     </dependency>
   </dependencies>
   
